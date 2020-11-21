@@ -1,0 +1,10 @@
+.posts {
+  color: darkblue;
+  padding: 5px; 
+} 
+ 
+.posts img {
+  max-width: 60px;
+  max-height: 60px;
+}  
+
