@@ -4,11 +4,14 @@ import Post from './Post/Post'
 
 const MyPost = ()=>{
   return(<div>
-        Наши гости
-      <Post messages='Здарова ребята' />
+        <div>Наши гости
+          <textarea></textarea>
+          <button>Add Post</button>
+      <Post messages='Привет ребята' />
       <Post messages='Зовут Дымком'/>
       <Post messages='Hello World'/>
       <Post messages='А еще я крол'/>
+      </div>
       </div>
   )
 }
